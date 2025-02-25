@@ -25,6 +25,27 @@ def SBECmd(args):
 
     return
 
+def CombineToolOutputs(output_dir):
+    # Load CSV files
+    recentfile_logs = pd.read_csv('RecentFileCache_output.csv')
+    evtx_logs = pd.read_csv('Evtxe_output.csv')
+    sbecmd_logs = pd.read_csv('SBECmd_output.csv')
+
+    # Insert 'Source' column at the FIRST position for each DataFrame
+    for df, source_name in zip(
+        [recentfile_logs, evtx_logs, sbecmd_logs],
+        ['RecentFileCache', 'EvtxCmd', 'SBECmd']
+    ):
+        df.insert(0, 'Source', source_name)  # Insert at position 0
+
+    # Combine vertically (align columns automatically)
+    combined_df = pd.concat([recentfile_logs, evtx_logs, sbecmd_logs], ignore_index=True)
+
+    # Save to CSV with 'Source' as the first column
+    combined_df.to_csv(output_dir + 'Combined_Forensic_Data.csv', index=False)
+    
+    return
+
 def main():
     """============================== Program Configurations =============================="""
     # Update actual path of program
@@ -47,7 +68,7 @@ def main():
     #SBECmd([sbe_path, sbe_file, output_dir])
 
     # Combine the output of the tools
-    # combine_output_files(output_dir)
+    CombineToolOutputs(output_dir)
 
 if __name__ == "__main__":
     main()
