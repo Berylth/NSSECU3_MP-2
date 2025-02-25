@@ -25,7 +25,6 @@ Integrates the functionality of three digital forensic tools—EvtxECmd, RecentF
     ```
     python ./Script.py
     ```
-7) da
 
 ## Members
 - Garcia, Ralph Timothy D.
