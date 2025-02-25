@@ -4,12 +4,12 @@ Integrates the functionality of three digital forensic tools—EvtxECmd, RecentF
 ## Pre-requisites / Dependencies
 1) Any Code Editor such as [VSCode](https://code.visualstudio.com/)
 2) [Python](https://www.python.org/downloads/)
-- Pandas  
-    ` pip install pandas `
+    - Pandas  
+        ` pip install pandas `
 3) [Eric Zimmerman's Tools (EZTools)](https://ericzimmerman.github.io/#!index.md)
-- EvtxECmd 
-- RecentFileCacheParser
-- SBECmd
+    - EvtxECmd 
+    - RecentFileCacheParser
+    - SBECmd
 4) WinRar or 7-Zip
 5) [Microsoft .net](https://dotnet.microsoft.com/en-us/download/dotnet/9.0)
 
