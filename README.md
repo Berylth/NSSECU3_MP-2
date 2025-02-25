@@ -20,7 +20,9 @@ Integrates the functionality of three digital forensic tools—EvtxECmd, RecentF
 4) Open the script via a code editor. Run the code editor as administrator.
 5) Modify the *"program configurations"* section.
 6) Run the python script using the command:  
-```python ./Script.py```
+`
+python ./Script.py
+`
 
 ## Members
 - Garcia, Ralph Timothy D.
