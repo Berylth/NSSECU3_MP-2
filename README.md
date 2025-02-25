@@ -6,7 +6,7 @@ Integrates the functionality of three digital forensic tools—EvtxECmd, RecentF
 2) [Python](https://www.python.org/downloads/)
     - Pandas  
         ```
-          pip install pandas
+        pip install pandas
         ```
 3) [Eric Zimmerman's Tools (EZTools)](https://ericzimmerman.github.io/#!index.md)
     - EvtxECmd 
