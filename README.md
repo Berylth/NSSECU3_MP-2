@@ -1,2 +1,30 @@
-# -NSSECU3_MP-2
-NSSECU3 Machine Project#2: Combines three digital forensic tools into a script to produce one unified output 📊.
+# NSSECU3_MP#2
+Integrates the functionality of three digital forensic tools—EvtxECmd, RecentFileCacheParser, and SBECmd—into a single, unified python script. This allows all tools to be executed simultaneously, streamlining the process and combining their outputs into a cohesive result. By eliminating the delays associated with running tools individually and merging overlapping outputs, this project aims to provide cybersecurity professionals with a more efficient and user-friendly solution for analyzing digital forensic data.
+
+## Pre-requisites / Dependencies
+1) Any Code Editor such as [VSCode](https://code.visualstudio.com/)
+2) [Python](https://www.python.org/downloads/)
+- Pandas  
+    ` pip install pandas `
+3) [Eric Zimmerman's Tools (EZTools)](https://ericzimmerman.github.io/#!index.md)
+- EvtxECmd 
+- RecentFileCacheParser
+- SBECmd
+4) WinRar or 7-Zip
+5) [Microsoft .net](https://dotnet.microsoft.com/en-us/download/dotnet/9.0)
+
+## Setup / How to Run
+1) Download EZTools and unzip them using WinRar or 7-Zip.
+2) Download the python script.
+3) Open the script via a code editor and modify the *"program configurations"* section.
+4) Run the python script using the command:
+`python ./<scriptname.py>`
+
+## Members
+- Garcia, Ralph Timothy D.
+- Lim, Jiro Phoenix G.
+- Magura, Bryle Jhone R.
+- Tapia, John Lorenzo N.
+
+## Acknowledgements
+- The digital forensic tools used in this project is [EZTools](https://ericzimmerman.github.io/#!index.md), created by Eric Zimmerman. 
