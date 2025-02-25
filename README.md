@@ -16,8 +16,9 @@ Integrates the functionality of three digital forensic tools—EvtxECmd, RecentF
 ## Setup / How to Run
 1) Download EZTools and unzip them using WinRar or 7-Zip.
 2) Download the python script.
-3) Open the script via a code editor and modify the *"program configurations"* section.
-4) Run the python script using the command:
+3) Download Microsoft .net from the website.
+4) Open the script via a code editor and modify the *"program configurations"* section.
+5) Run the python script using the command:
 `python ./<scriptname.py>`
 
 ## Members
