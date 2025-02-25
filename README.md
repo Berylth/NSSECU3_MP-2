@@ -19,7 +19,7 @@ Integrates the functionality of three digital forensic tools—EvtxECmd, RecentF
 3) Download Microsoft .net from the website.
 4) Open the script via a code editor and modify the *"program configurations"* section.
 5) Run the python script using the command:
-`python ./<scriptname.py>`
+`python ./Script.py`
 
 ## Members
 - Garcia, Ralph Timothy D.
