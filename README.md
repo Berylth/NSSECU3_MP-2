@@ -25,7 +25,7 @@ Integrates the functionality of three digital forensic tools—EvtxECmd, RecentF
     ```
     python ./Script.py
     ```
-7) The combined output of the tools is saved at output_dir/Combined_Forensic_Data.csv where output_dir is the user configured output directory.
+7) The combined output of the tools is saved at *output_dir/Combined_Forensic_Data.csv* where output_dir is the user configured output directory.
 
 ## Members
 - Garcia, Ralph Timothy D.
