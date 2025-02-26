@@ -19,13 +19,14 @@ Integrates the functionality of three digital forensic tools—EvtxECmd, RecentF
 1) Download EZTools and unzip them using WinRar or 7-Zip.
 2) Download the python script.
 3) Download Microsoft .net from the website.
-4) Open the script via a code editor. Run the code editor as administrator.
-5) Modify the *"program configurations"* section.
-6) Run the python script using the command:  
+4) You may also download the *'Artifacts'* folder as it contains Windows 7 artifacts that can be used to run the script.
+5) Open the script via a code editor. Run the code editor as administrator.
+6) Modify the *"program configurations"* section.
+7) Run the python script using the command:  
     ```
     python ./Script.py
     ```
-7) The combined output of the tools is saved at *output_dir/Combined_Forensic_Data.csv* where output_dir is the user configured output directory.
+8) The combined output of the tools is saved at *output_dir/Combined_Forensic_Data.csv* where output_dir is the user configured output directory.
 
 ## Members
 - Garcia, Ralph Timothy D.
